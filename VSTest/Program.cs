@@ -13,4 +13,13 @@ namespace VSTest
             Console.WriteLine("test");
         }
     }
+
+
+    public class MyClass
+    {
+        public static int Add(int x, int y)
+        {
+            return x + y;
+        }
+    }
 }
